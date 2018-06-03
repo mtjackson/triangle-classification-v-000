@@ -5,6 +5,7 @@ class Triangle
   def initialize(attributes)
     attributes.each do |key, value|
       self.send(("#{key}="), value)
+    end
  # def initialize(side1:, side2:, side3:)
 #    @side1 = side1
 #    @side2 = side2
