@@ -13,7 +13,8 @@ class Triangle
       self.kind = @equilateral
     elsif @side1 == @side2 || @side2 == @side3 || @side1 == @side3
       self.kind = @isosceles
-    elsif
+    elsif @side1 != @side2 && @side2 != @side3 && @side1 != @side3
+      self.kind = @scalene
 
   class TriangleError < StandardError
   end
