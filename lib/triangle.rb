@@ -33,5 +33,6 @@ class Triangle
     end
     def inequality
       "Triangles must conform to tringle equality"
+    end
   end
 end
