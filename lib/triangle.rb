@@ -9,7 +9,7 @@ class Triangle
   end
 
   def kind
-    
+    if
 
   class TriangleError < StandardError
   end
