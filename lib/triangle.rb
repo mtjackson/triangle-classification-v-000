@@ -28,5 +28,6 @@ class Triangle
   end
 
   class TriangleError < StandardError
+    def no_size
   end
 end
