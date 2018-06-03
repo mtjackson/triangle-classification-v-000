@@ -10,11 +10,11 @@ class Triangle
 
   def self.kind
     if @side1 == @side2 && @side2 == @side3
-      self.kind = :equilateral
+      :equilateral
     elsif @side1 == @side2 || @side2 == @side3 || @side1 == @side3
-      self.kind = :isosceles
+      :isosceles
     elsif @side1 != @side2 && @side2 != @side3 && @side1 != @side3
-      self.kind = :scalene
+      :scalene
     end
   end
 
