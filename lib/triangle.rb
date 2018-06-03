@@ -29,5 +29,6 @@ class Triangle
 
   class TriangleError < StandardError
     def no_size
+      "Triangles must have sides greater than 0"
   end
 end
