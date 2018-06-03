@@ -32,5 +32,6 @@ class Triangle
       "Triangles must have sides greater than 0"
     end
     def inequality
+      "Triangles must conform to tringle equality"
   end
 end
