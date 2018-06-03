@@ -1,3 +1,5 @@
 class Triangle
-  attr_accessor :equilateral, :isosceles, :scal
+  attr_accessor :equilateral, :isosceles, :scalene
+
+  class TriangleError
 end
